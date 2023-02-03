@@ -1,0 +1,31 @@
+
+/* flexible - container - flex - here */
+.flexible-container{
+    display: flex;
+    justify-content: center;
+}
+/* flexible - box - flex - here */
+.flex-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+/* buttons color styles */
+#red-btn{
+    background-color: red;
+}
+#blue-btn{
+    background-color: blue;
+}
+#yellow-btn{
+    background-color: yellow;
+}
+#green-btn{
+    background-color: green;
+}
+#purple-btn{
+    background-color: purple;
+}
+#pink-btn{
+    background-color: pink;
+}

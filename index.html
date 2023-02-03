@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainbow-0.1</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        button {
+            width: 200px;
+            height: 50px;
+            border: none;
+            border-top-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            margin-left: 50px;
+            text-shadow: 1px 1px white;
+            font-weight: 700;
+        }
+        .flex-box h1{
+            font-size: 36px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <section class="flexible-container">
+        <section class="flex-box">
+            <h1 onclick="makeWhite()">This is Rainbow-0.1</h1>
+            <button id="red-btn" onclick="makeRed()">RED</button>
+            <button id="blue-btn" onclick="makeBlue()">BLUE</button>
+            <button id="yellow-btn" onclick="makeYellow()">YELLOW</button>
+            <button id="green-btn" onclick="makeGreen()">GREEN</button>
+            <button id="purple-btn" onclick="makePurple()">PURPLE</button>
+            <button id="pink-btn" onclick="makePink()">PINK</button>
+        </section>
+    </section>
+    <!-- script tag -->
+    <script src="colors.js"></script>
+</body>
+</html>
